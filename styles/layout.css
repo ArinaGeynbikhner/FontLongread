@@ -19,8 +19,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    padding: 0 15px; /* добавление отступов */
+    box-sizing: border-box; /* учитываем padding в общей ширине */
 }
+
 
 .container_bord {
     margin-top: 20px;
