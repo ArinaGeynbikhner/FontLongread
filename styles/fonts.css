@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AngleciaProDisplay-Italic'; 
+    src: url(../fonts/AngleciaProDisplay-Italic.otf);
+}
+@font-face {
+    font-family: 'AngleciaProDisplay-Regular'; 
+    src: url(../fonts/AngleciaProDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'AngleciaProDisplay-Bold'; 
+    src: url(../fonts/AngleciaProDisplay-bold.otf);
+}

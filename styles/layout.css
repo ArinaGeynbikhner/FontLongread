@@ -1,0 +1,636 @@
+body {
+    transform: scale(0.5); /* 1.5 - увеличивает на 50%, 0.5 - уменьшает на 50% */
+    transform-origin: top center;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background: rgb(80, 80, 80);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container_bord {
+    margin-top: 20px;
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 20px solid rgba(255, 116, 183, 1);
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.text {
+    width: 1440px;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.my_commen_screen {
+   
+    width: 1440px;
+    position: relative;
+    background: rgba(0, 0, 0, 1);
+}
+
+.my_screen {
+    margin-top: 35px;
+    height: 855px;
+    width: 1370px;
+    text-align: center;
+    position: relative;
+    background: url(../images/1-box.jpg) no-repeat center top, rgba(255, 116, 183, 1);
+    background-size: cover; 
+}
+.my_screen h1 {
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 160px;
+    color: #262626;
+    text-transform: uppercase;
+    position: relative;
+    top: 225px;
+}
+.my_screen h2 {
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 120px;
+    color: #262626;
+    text-transform: uppercase;
+    position: relative;
+    top: 235px;
+}
+
+.my_screen_2 {
+    height: 235px;
+    width: 1290px;
+    text-align: center;
+    position: relative;
+    background: rgba(255, 116, 183, 1);
+}
+
+.my_screen_2 h1 {
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 64px;
+    color: #262626;    
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.my_screen_3 {
+    height: 656px;
+    width: 1290px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    background: url(../images/fon-2.jpg) no-repeat center top, rgba(18, 18, 18, 1);
+    outline: 2px solid white;
+     
+}
+
+.my_screen_3 ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 36px;
+    color: rgba(255, 116, 183, 1);    
+    text-align: left;
+    top: 150px;
+    right: 150px;
+    position: absolute;
+}
+
+.piggy_container {
+
+    width: 1290px;
+    margin-top: 20px;
+    position: relative;
+    background: rgba(255, 116, 183, 1);
+    font-size: 48px;
+    color: rgb(0, 0, 0);    
+    text-align: left;
+
+}
+
+.my_screen_4_text {
+
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 48px;
+    color: rgb(0, 0, 0);    
+    text-align: left; 
+    margin-left: 67px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container_bord_1 {
+
+    margin-top: 20px;
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 20px solid rgba(255, 116, 183, 1);
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+
+.my_screen_5 {
+
+        height: 578px;
+        width: 1290px;
+        text-align: center;
+        position: relative;
+        background:rgba(18, 18, 18, 1);
+        outline: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.bycenter {
+    
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.uppercase {
+    
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 400px;
+    color: rgb(255, 255, 255);    
+    text-align: left; 
+}
+
+.lowcase {
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 233px;
+    color: rgb(255, 255, 255);    
+    text-align: left; 
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 1;
+    pointer-events: none;
+    margin-top: 194px;
+    margin-left: -50px;
+    transition: transform 0.3s ease; 
+}
+.my_screen_5:hover .image-container img {
+    transform: scale(1.4);
+  }     
+  .image-container-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; /*поверх того сооя */
+    opacity: 1;
+    pointer-events: none;
+    margin-top: 245px;
+    margin-left: -400px;
+    transition: transform 0.3s ease; 
+}
+.my_screen_5:hover .image-container-2 img {
+    transform: scale(1.9);
+  }  
+.commonspan {
+    display: inline-block;
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 48px; 
+    color: rgb(0, 0, 0);    
+    text-align: left; 
+    padding: 67px;
+
+}
+.my_screen_7 {
+    margin-top: 20px;
+    height: 576px;
+    width: 1290px;
+    outline: 2px solid white;
+    background: rgba(18, 18, 18, 1);
+    background: url(../images/7-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 520px auto;
+    background-position: 270px 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_screen_7 h1 {
+    top: 250px;
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 250px;   
+    text-align: center;
+    color: rgba(255, 116, 183, 1);
+    position: relative;
+}
+
+.my_screen_8 {
+    margin-top: 20px;
+    height: 576px;
+    width: 1290px;
+    outline: 2px solid white;
+    background: rgba(18, 18, 18, 1);
+    background: url(../images/8-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 270px auto;
+    background-position: 785px 33px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_screen_8 h1 {
+    top: 250px;
+    font-family: 'AngleciaProDisplay-Bold';
+    font-size: 250px;   
+    left: 200px;
+    top: 250px;
+    text-align: left;
+    color: rgba(255, 116, 183, 1);
+    position: relative;
+}
+
+.my_screen_9 {
+    margin-top: 20px;
+    height: 576px;
+    width: 1290px;
+    outline: 2px solid white;
+    background: rgba(18, 18, 18, 1);
+    background: url(../images/9-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 536px auto;
+    background-position: 169px 74px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_screen_9 h1 {
+    top: 250px;
+    font-family: 'AngleciaProDisplay-Italic';
+    font-size: 270px;   
+    left: 455px;
+    top: 250px;
+    text-align: left;
+    color: rgba(255, 116, 183, 1);
+    position: relative;
+}
+
+.container_bord_2 {
+    margin-top: 20px;
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    border: 20px solid rgba(255, 116, 183, 1);
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.my_screen_0_10 {
+    height: 682px;
+    width: 1290px;
+    display: flex;
+    flex-direction: row;
+}
+.my_screen_10 {
+    height: 682px;
+    width: 840px;
+    outline: 2px solid white;
+    background: rgba(18, 18, 18, 1);
+    background: url(../images/10-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 603px auto;
+    background-position: center;
+    justify-content: center;
+    align-items: center; 
+}
+.my_screen_11 {
+    margin-left: 20px; 
+    height: 682px;
+    width: 430px;
+    outline: 2px solid white;
+    background: rgba(18, 18, 18, 1);
+    background: url(../images/11-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 420px auto;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.my_screen_11 h1 {
+    font-family:'AngleciaProDisplay-Regular';
+    font-size: 55px;
+    color: white;
+    transform: rotate(39deg);
+    margin-top: 510px;
+    margin-left: 125px;
+}
+.my_screen_12 {
+    margin-top: 20px;
+    height: 700px;
+    width: 1290px;
+    outline: 2px solid white;
+    background: rgba(18, 18, 18, 1);
+    background: url(../images/12-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 1290px auto;
+    background-position: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.my_screen_12 p {
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 48px;    
+    text-align: center;
+    position: relative;
+    top: 90;   
+}
+.my_screen_12_text {
+    height: 700px;
+    width: 1290px;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+}
+
+
+.span_12_piggy {
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 48px; 
+    color: rgba(255, 116, 183, 1);    
+    text-align: center;  
+}
+
+.span_12_white {
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 48px; 
+    color: rgb(255, 255, 255, 1);    
+    text-align: center;
+}
+.my_screen_0_13 {
+    margin-top: 20px;
+    height: 740px;
+    width: 1290px;
+    display: flex;
+    background: rgba(18, 18, 18, 1);
+    flex-direction: row;
+}
+.my_screen_13 {
+    
+    height: 740px;
+    width: 457px;
+    outline: 2px solid white;
+    background: rgba(18, 18, 18, 1);
+    background-size: 457px auto;
+    background-position: center;
+    justify-content: center;
+    align-items: center;   
+}
+
+.my_screen_13 p {
+    margin-left: 72px;
+    margin-top: 274px;
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 48px; 
+    color: rgb(255, 255, 255);    
+    text-align: left;  
+}
+.my_screen_14 {
+    
+    margin-left: 20px ;
+    height: 740px;
+    width: 814px;
+    outline: 2px solid white;
+    background:rgba(18, 18, 18, 1);
+    background: url(../images/14-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 814px auto;
+    background-position: center;
+    justify-content: center;
+    align-items: center; 
+}
+.my_screen_15 {
+    content: '';
+    flex-shrink: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;    
+    height: 886px;
+    width: 1290px;
+    outline: 2px solid white;
+    background: rgb(38, 38, 38);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.my_screen_15 p {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    
+}
+
+.my_screen_15 br {
+    display: inline-block;
+    height: 90px;
+    content: "";
+}
+
+hr {
+    border: 0; 
+    height: 2px; 
+    width: 70%;
+    background-color: white; 
+  }
+
+.container_bord_3 {
+    margin-top: 20px;
+    width: 1370px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    border: 20px solid rgba(255, 116, 183, 1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.my_screen_0_16 {
+    height: 602px;
+    width: 1290px;
+    display: flex;
+    flex-direction: row;
+}
+.my_screen_16 {
+    height: 602px;
+    width: 854px;
+    outline: 2px solid white;
+    background:rgba(18, 18, 18, 1);
+    background: url(../images/16-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 814px auto;
+    background-position: center;
+    justify-content: center;
+    align-items: center;  
+}
+.my_screen_17 {
+    margin-left: 20px;
+    height: 602px;
+    width: 423px;
+    outline: 2px solid white;
+    background:rgba(18, 18, 18, 1);
+    background: url(../images/17-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 375px auto;
+    background-position: center;
+    justify-content: center;
+    align-items: center;   
+}
+
+.my_screen_18 {
+    display: flex;
+    margin-top: 20px;
+    height: 467px;
+    width: 1290px;
+    outline: 2px solid white;
+    background:rgba(18, 18, 18, 1);
+    background-position: center;
+    justify-content: center;
+    align-items: center;     
+    z-index: 1;
+
+}
+.my_screen_18 h1 {
+    font-family: 'AngleciaProDisplay-Regular';
+    font-size: 250px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    vertical-align: middle;
+}
+    
+.tear_container1 {
+    margin-top: -250px;
+    margin-left: -574px;
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+    
+.my_screen_18:hover .tear_container1 {
+    animation: rolldown 3s ease-in-out infinite;
+}
+    
+.tear_container2 {
+    position: absolute;
+    opacity: 0;
+    margin-top: 130px;
+    margin-left: 400px;
+    z-index: 2;
+}
+
+.my_screen_18:hover .tear_container2 {
+    animation: rolldown 3s ease-in-out infinite;
+    animation-delay: 1.5s; /* задержка второй слёзки */
+}
+
+.tear_container3 {
+    margin-top: -220px;
+    margin-left: 850px;
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+    
+.my_screen_18:hover .tear_container3 {
+    animation: rolldown 3s ease-in-out infinite;
+    animation-delay: 2.5s; /* задержка третьей слёзки */
+}
+    
+@keyframes rolldown {
+    0% {
+          transform: translateY(-50%);
+          opacity: 0;
+        }
+        25% {
+          opacity: 1;
+        }
+        50% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+
+        100% {
+          transform: translateY(50%);
+          opacity: 0;
+        }
+      }
+
+.my_screen_19 {
+    margin-top: 20px;
+    height: 608px;
+    width: 1290px;
+    outline: 2px solid white;
+    background:rgba(18, 18, 18, 1);
+    background: url(../images/19-box.png) no-repeat center top, rgba(18, 18, 18, 1);
+    background-size: 1290px auto;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.my_screen_19 p {
+    font-family: AngleciaProDisplay-Regular;
+    font-size: 45px;
+    color: white;
+    margin-left: 114px;
+    margin-top: 420px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
