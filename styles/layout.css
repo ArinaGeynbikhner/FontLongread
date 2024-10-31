@@ -1,6 +1,4 @@
 body {
-    transform: scale(0.5); /* 1.5 - увеличивает на 50%, 0.5 - уменьшает на 50% */
-    transform-origin: top center;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
